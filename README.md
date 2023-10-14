@@ -36,6 +36,9 @@ Welcome to the PureThreadPlaza Sustainable Fashion E-Commerce Platform! This pla
 
 Use these credentials to log in and explore the application.
 
+**Deployment**
+You can access the live version of PureThreadPlaza at the following URL: [Click Here](https://purethreadplaza.netlify.app/)
+
 ## Technologies
 
 🔧 **Frontend:**
