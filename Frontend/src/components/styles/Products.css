@@ -1,0 +1,130 @@
+/* Products.css */
+
+.category-title {
+    font-size: 32px; /* Increase font size for emphasis */
+    color: #007bff; /* Change text color to a primary color (e.g., blue) */
+    margin-bottom: 20px; /* Increase bottom margin for spacing */
+    text-transform: capitalize; /* Capitalize the category name */
+    font-weight: bold; /* Make the text bold */
+    letter-spacing: 1px; /* Add letter spacing */
+    text-align: center; /* Center-align the text */
+    background-color: #f0f0f0; /* Add a light gray background */
+    padding: 10px; /* Add padding for better visual separation */
+    border-radius: 4px; /* Add rounded corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-item {
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .card h4 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+ /* Products.css */
+
+.add-to-cart-button {
+    background-color: #007bff; /* Button background color for Add to Cart */
+    color: #fff; /* Text color for Add to Cart */
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3; /* Hover background color for Add to Cart */
+  }
+  
+  .place-order-button {
+    background-color: #28a745; /* Button background color for Place Order */
+    color: #fff; /* Text color for Place Order */
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .place-order-button:hover {
+    background-color: #1e7e34; /* Hover background color for Place Order */
+  }
+  
+  
+/* Filter and Sort Container */
+.filter-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Filter Dropdown */
+  .select-filter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  /* Sort Dropdown */
+  .select-sort {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  /* Style on hover */
+  .select-filter:hover,
+  .select-sort:hover {
+    border-color: #007bff; /* Highlight the border on hover */
+  }
+  
+  /* Style when an option is selected */
+  .select-filter:active,
+  .select-sort:active,
+  .select-filter:focus,
+  .select-sort:focus {
+    border-color: #007bff; /* Highlight the border when active or focused */
+    outline: none; /* Remove the default focus outline */
+  }
+  

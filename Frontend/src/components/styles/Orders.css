@@ -1,0 +1,55 @@
+/* Orders.css */
+
+.orders-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.orders-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.empty-orders-message {
+  font-size: 16px;
+  color: #777;
+}
+
+.order-list {
+  margin-top: 20px;
+}
+
+.order {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.order-date {
+  font-size: 18px;
+  color: #333;
+}
+
+.order-total {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.order-items {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.order-item {
+  font-size: 16px;
+  color: #333;
+}

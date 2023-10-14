@@ -1,0 +1,76 @@
+/* SignUp.css */
+
+
+.signup-container {
+  width: 100%; /* Take up full width on smaller screens */
+  margin-top: 5%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-input {
+  width: 100%; /* Take up full width on all screens */
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.go-to-login-button,.create-account-button,
+.signupButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Take up full width on smaller screens */
+}
+
+.go-to-login-button:hover,.create-account-button:hover,
+.signupButton :hover {
+  background-color: #0056b3;
+}
+  .send-otp-button,
+  .verify-otp-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-otp-button:hover,
+  .verify-otp-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: #4caf50;
+    margin-top: 10px;
+  }
+  
+  .go-to-login{
+    text-decoration: none;
+  }@media screen and (max-width: 768px) {
+    .signup-container {
+        width: 100%; /* Take up full width on smaller screens */
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .signup-input {
+        padding: 6px;
+        font-size: 14px;
+    }
+    .signupButton {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,161 @@
+/* Add this CSS in your stylesheet or as a style tag in your component */
+
+.cart-container {
+    position: relative; /* Make the container relative for absolute positioning */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .cart-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .empty-cart-message {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .cart-items {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px; /* Adjust the margin to control spacing */
+  }
+  
+  .product-quantity {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .product-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-image img {
+    max-width: 100px; /* Adjust the width to your preferred size */
+    height: auto;
+    border-radius: 5px;
+  }
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/* New styles for a neater quantity control */
+.quantity-control .quantity-button {
+    width: 40px; /* Slightly larger buttons for better touch interaction */
+    height: 40px;
+    font-size: 24px;
+    padding: 0; /* Remove padding for cleaner look */
+    transition: background-color 0.3s ease; /* Add a subtle transition on hover */
+}
+
+.quantity-control .quantity-button:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+}
+
+.product-quantity {
+    font-size: 20px;
+    color: #333;
+    margin: 0 10px; /* Add spacing between quantity and buttons */
+}
+
+/* Adjust the margins to control spacing */
+.quantity-button:first-child {
+    margin-left: 0;
+}
+
+.quantity-button:last-child {
+    margin-right: 0;
+}
+
+.total-container {
+    display: flex;
+    justify-content: flex-end; /* Align total price to the right */
+    margin-top: 20px;
+  }
+  
+  .total-price {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    font-size: 18px;
+    color: #333;
+  }
+
+  .place-order-button-cart {
+  display: block;
+  width: 100%; /* Make the button as wide as the container */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px; /* Adjust the margin to control spacing */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a subtle transition on hover */
+}
+
+.place-order-button-cart:hover {
+  background-color: #0056b3; /* Darken the background color on hover */
+}
