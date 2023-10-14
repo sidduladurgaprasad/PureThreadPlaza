@@ -1,5 +1,5 @@
 # PureThreadPlaza 
-## Sustainable Fashion E-Commerce Platform 👗🌱
+# Sustainable Fashion E-Commerce Platform 👗🌱
 
 Welcome to the PureThreadPlaza Sustainable Fashion E-Commerce Platform! This platform allows users to shop for eco-friendly clothing items, filter products by various criteria, manage their shopping cart, and view order history. Let's get started on building this platform!
 
