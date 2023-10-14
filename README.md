@@ -30,6 +30,12 @@ Welcome to the PureThreadPlaza Sustainable Fashion E-Commerce Platform! This pla
    - View a history of your past orders.
    - Keep track of your previous purchases.
 
+🔐 **Sample Login Credentials** 
+   - **Email:** samplemail@gmail.com
+   - **Password:** sample@123
+
+Use these credentials to log in and explore the application.
+
 ## Technologies
 
 🔧 **Frontend:**
@@ -41,10 +47,6 @@ Welcome to the PureThreadPlaza Sustainable Fashion E-Commerce Platform! This pla
 - Node.js for server-side logic
 - Express.js for building APIs
 - MongoDB for storing user data, products, and orders
-
-📡 **APIs:**
-- Payment gateway API for processing payments
-- Shipping API for managing deliveries
 
 🔐 **Authentication:**
 - Implement user authentication for secure access to the account and order history.
@@ -67,11 +69,11 @@ cd PureThreadPlaza
 
 ```bash
 # Install frontend dependencies
-cd client
+cd Frontend
 npm install
 
 # Install backend dependencies
-cd ../server
+cd ../Backend
 npm install
 ```
 
@@ -82,13 +84,13 @@ npm install
 6. Start the development server:
 
 ```bash
-# Start the frontend (from the 'client' folder)
-cd client
+# Start the frontend (from the 'Frontend' folder)
+cd Frontend
 npm start
 
-# Start the backend (from the 'server' folder)
-cd ../server
-npm start
+# Start the backend (from the 'Backend' folder)
+cd ../Backend
+node app.js
 ```
 
 7. Access the application in your browser at `http://localhost:3000`.
@@ -104,18 +106,10 @@ npm start
 
 ```
 PureThreadPlaza/
-  ├── client/              # Frontend code
-  ├── server/              # Backend code
-  ├── README.md            # Project documentation
-  └── LICENSE              # Project license
+  ├── Frontend/              # Frontend code
+  ├── Backend/              # Backend code
+  └── README.md            # Project documentation
 ```
 
-## Contributing
-
-We welcome contributions to make PureThreadPlaza even better! Feel free to open issues or create pull requests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 🌍 Thank you for helping us make sustainable fashion accessible to everyone! 🌎👚🌿
